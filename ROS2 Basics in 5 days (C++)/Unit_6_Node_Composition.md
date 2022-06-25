@@ -261,3 +261,94 @@ ros2 component types
 ```
 
 Alright! Everything is set up, so let's load our component. Execute the following command:
+```bash
+$ ros2 component load /ComponentManager my_components my_components::MoveRobot
+```
+
+The structure of the command is the following:
+```bash
+ros2 component load /ComponentManager <pkg_name> <component_name>
+```
+
+As you can see, the process taken is the following:
+
+First, the component manager loads the program as a shared library.
+
+Second, it finds the MoveRobot class defined inside the component.
+
+Finally, it instantiates this MoveRobot class as a ROS node.
+
+it's also possible to unload components. As you may imagine, it's done with the command ros2 component unload:
+```bash
+$ ros2 component unload /ComponentManager 1
+```
+
+- Notes -
+Note that, despite unloading the component, the robot will keep moving. To stop the robot, you can send a message to the /cmd_vel topic with:
+
+```bash
+$ ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+```
+Remember that you can also reset the robot's initial position with the below command:
+```bash
+$ ros2 service call /reset_world std_srvs/Empty
+```
+
+It is also possible to load components using launch files. Inside your package, create a new folder named launch. Inside this folder, create a launch file named moverobot_component.launch.py, and paste the below code:
+
+```python
+import launch
+from launch_ros.actions import ComposableNodeContainer
+from launch_ros.descriptions import ComposableNode
+
+
+def generate_launch_description():
+    """Generate launch description with multiple components."""
+    container = ComposableNodeContainer(
+            name='my_container',
+            namespace='',
+            package='rclcpp_components',
+            executable='component_container',
+            composable_node_descriptions=[
+                ComposableNode(
+                    package='my_components',
+                    plugin='my_components::MoveRobot',
+                    name='moverobot'),
+            ],
+            output='screen',
+    )
+
+    return launch.LaunchDescription([container])
+```
+
+Let's have a quick look at the launch file code. First, we are starting a component container, named my_container.
+
+Second, we load the my_components::MoveRobot component into the container.
+
+## Summary:
+
+In the previous exercise you have seen many different commands that can be used to interact with ROS2 components. Let's do a brief recap of all of them:
+
+To see all available components:
+
+```bash
+ros2 component types
+```
+To list all component that are currently running:
+```bash
+ros2 component list
+```
+
+To start the component container:
+```bash
+ros2 run rclcpp_components component_container
+```
+To load a component:
+```bash
+ros2 component load /ComponentManager <pkg_name> <component_name>
+```
+
+To unload a component:
+```bash
+ros2 component unload /ComponentManager <component_id>
+```
