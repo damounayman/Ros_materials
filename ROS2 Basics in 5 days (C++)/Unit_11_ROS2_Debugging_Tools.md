@@ -40,6 +40,22 @@ RVIZ is a visualization tool that lets you view images, pointclouds, lasers, kin
 - RVIZ represents what is being published in the topics by the simulation or the real robot.
 - RVIZ is a complex tool, and it would take you a whole course to master it.
 
-````bash
+```bash
 rviz2
 ```
+
+
+
+```bash
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "linear:
+  x: 0.2
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.2
+"
+```
+
+## 11.3   tf2_tools view_frames
