@@ -1,0 +1,4 @@
+source;share/unit_8_services_custom_msgs/local_setup.bash
+source;share/unit_8_services_custom_msgs/local_setup.dsv
+source;share/unit_8_services_custom_msgs/local_setup.sh
+source;share/unit_8_services_custom_msgs/local_setup.zsh

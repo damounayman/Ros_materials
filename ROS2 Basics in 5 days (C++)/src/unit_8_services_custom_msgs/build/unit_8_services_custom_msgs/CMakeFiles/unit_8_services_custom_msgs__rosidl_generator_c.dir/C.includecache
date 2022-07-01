@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.c
+unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.h
+/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/unit_8_services_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/rosidl_runtime_c/visibility_control.h
+unit_8_services_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/unit_8_services_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+unit_8_services_custom_msgs/srv/detail/my_custom_service_message__struct.h
+rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__struct.h
+
+rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

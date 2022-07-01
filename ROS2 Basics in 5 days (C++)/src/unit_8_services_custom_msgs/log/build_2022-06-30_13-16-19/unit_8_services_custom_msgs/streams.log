@@ -1,0 +1,238 @@
+[0.021s] Invoking command in '/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/topic_subscriber_pkg:/home/user/ros2_ws/install/topic_publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_components:/home/user/ros2_ws/install/move_robot:/home/user/ros2_ws/install/cpp_unit_7_services:/home/user/ros2_ws/install/bb8:/home/user/ros2_ws/install/Mini_Project_1:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy:/home/user/catkin_ws/devel:/home/simulations/public_sim_ws/devel:/opt/ros/noetic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/unit_8_services_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs
+[0.101s] -- The C compiler identification is GNU 9.3.0
+[0.173s] -- The CXX compiler identification is GNU 9.3.0
+[0.180s] -- Check for working C compiler: /usr/bin/cc
+[0.287s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.288s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.419s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++
+[0.557s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.559s] -- Detecting CXX compiler ABI info
+[0.672s] -- Detecting CXX compiler ABI info - done
+[0.689s] -- Detecting CXX compile features
+[0.689s] -- Detecting CXX compile features - done
+[0.695s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.737s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.737s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.119s] -- Found std_msgs: 2.0.3 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.166s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.355s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.412s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.635s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.706s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.709s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.710s] -- Looking for pthread.h
+[1.813s] -- Looking for pthread.h - found
+[1.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.921s] -- Looking for pthread_create in pthreads
+[2.013s] -- Looking for pthread_create in pthreads - not found
+[2.014s] -- Looking for pthread_create in pthread
+[2.113s] -- Looking for pthread_create in pthread - found
+[2.114s] -- Found Threads: TRUE  
+[2.333s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.366s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.521s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.630s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.900s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[2.907s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.953s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[2.954s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.954s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.954s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.988s] -- Found PythonExtra: .so  
+[3.068s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.071s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_c>;/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_c;/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_cpp;/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_typesupport_fastrtps_c;/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_cpp>;/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs/rosidl_generator_py
+[3.072s] -- Configured cppcheck exclude dirs and/or files: 
+[3.076s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.078s] -- Added test 'lint_cmake' to check CMake code style
+[3.080s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.092s] -- Added test 'uncrustify' to check C / C++ code style
+[3.092s] -- Configured uncrustify additional arguments: 
+[3.094s] -- Added test 'xmllint' to check XML markup files
+[3.122s] -- Configuring done
+[3.178s] -- Generating done
+[3.184s] -- Build files have been written to: /home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs
+[3.197s] Invoked command in '/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/topic_subscriber_pkg:/home/user/ros2_ws/install/topic_publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_components:/home/user/ros2_ws/install/move_robot:/home/user/ros2_ws/install/cpp_unit_7_services:/home/user/ros2_ws/install/bb8:/home/user/ros2_ws/install/Mini_Project_1:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy:/home/user/catkin_ws/devel:/home/simulations/public_sim_ws/devel:/opt/ros/noetic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/unit_8_services_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs
+[3.203s] Invoking command in '/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/topic_subscriber_pkg:/home/user/ros2_ws/install/topic_publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_components:/home/user/ros2_ws/install/move_robot:/home/user/ros2_ws/install/cpp_unit_7_services:/home/user/ros2_ws/install/bb8:/home/user/ros2_ws/install/Mini_Project_1:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy:/home/user/catkin_ws/devel:/home/simulations/public_sim_ws/devel:/opt/ros/noetic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs -- -j8 -l8
+[3.276s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.276s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__cpp[0m
+[3.296s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.832s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_generator_c[0m
+[3.881s] [  6%] Built target unit_8_services_custom_msgs__cpp
+[3.882s] [  9%] [32mBuilding C object CMakeFiles/unit_8_services_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.c.o[0m
+[3.900s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.904s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.908s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.009s] [ 22%] [32m[1mLinking C shared library libunit_8_services_custom_msgs__rosidl_generator_c.so[0m
+[4.177s] [ 22%] Built target unit_8_services_custom_msgs__rosidl_generator_c
+[4.198s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.272s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.795s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_cpp[0m
+[4.895s] [ 32%] [32mBuilding CXX object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unit_8_services_custom_msgs/srv/my_custom_service_message__type_support.cpp.o[0m
+[4.979s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.002s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.091s] [ 35%] [32mBuilding CXX object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__type_support.cpp.o[0m
+[5.110s] [ 38%] [32mBuilding CXX object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unit_8_services_custom_msgs/srv/detail/dds_fastrtps/my_custom_service_message__type_support.cpp.o[0m
+[5.288s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_c[0m
+[5.379s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_introspection_c[0m
+[5.383s] [ 41%] [32mBuilding CXX object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unit_8_services_custom_msgs/srv/my_custom_service_message__type_support.cpp.o[0m
+[5.411s] [ 45%] [32mBuilding C object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__type_support.c.o[0m
+[5.589s] [ 48%] [32m[1mLinking C shared library libunit_8_services_custom_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.612s] [ 51%] [32m[1mLinking CXX shared library libunit_8_services_custom_msgs__rosidl_typesupport_c.so[0m
+[5.704s] [ 51%] Built target unit_8_services_custom_msgs__rosidl_typesupport_introspection_c
+[5.818s] [ 51%] Built target unit_8_services_custom_msgs__rosidl_typesupport_c
+[5.940s] [ 54%] [32m[1mLinking CXX shared library libunit_8_services_custom_msgs__rosidl_typesupport_cpp.so[0m
+[6.039s] [ 54%] Built target unit_8_services_custom_msgs__rosidl_typesupport_cpp
+[6.135s] [ 58%] [32m[1mLinking CXX shared library libunit_8_services_custom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.200s] [ 58%] Built target unit_8_services_custom_msgs__rosidl_typesupport_introspection_cpp
+[6.411s] [ 61%] [32m[1mLinking CXX shared library libunit_8_services_custom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.522s] [ 61%] Built target unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_cpp
+[6.539s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.915s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.944s] [ 67%] [32mBuilding CXX object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__type_support_c.cpp.o[0m
+[7.495s] [ 70%] [32m[1mLinking CXX shared library libunit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.610s] [ 70%] Built target unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c
+[7.627s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs[0m
+[7.643s] [ 70%] Built target unit_8_services_custom_msgs
+[7.660s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__py[0m
+[7.677s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.384s] [ 74%] Built target unit_8_services_custom_msgs__py
+[8.401s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__python[0m
+[8.575s] [ 77%] [32mBuilding C object CMakeFiles/unit_8_services_custom_msgs__python.dir/rosidl_generator_py/unit_8_services_custom_msgs/srv/_my_custom_service_message_s.c.o[0m
+[8.818s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/unit_8_services_custom_msgs/libunit_8_services_custom_msgs__python.so[0m
+[8.873s] [ 80%] Built target unit_8_services_custom_msgs__python
+[8.892s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_c__pyext[0m
+[8.892s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[8.893s] [35m[1mScanning dependencies of target unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.924s] [ 87%] [32mBuilding C object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unit_8_services_custom_msgs/_unit_8_services_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.925s] [ 87%] [32mBuilding C object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unit_8_services_custom_msgs/_unit_8_services_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.925s] [ 90%] [32mBuilding C object CMakeFiles/unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unit_8_services_custom_msgs/_unit_8_services_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.178s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.189s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.191s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.237s] [100%] Built target unit_8_services_custom_msgs__rosidl_typesupport_c__pyext
+[9.283s] [100%] Built target unit_8_services_custom_msgs__rosidl_typesupport_introspection_c__pyext
+[9.323s] [100%] Built target unit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.341s] Invoked command in '/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/topic_subscriber_pkg:/home/user/ros2_ws/install/topic_publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_components:/home/user/ros2_ws/install/move_robot:/home/user/ros2_ws/install/cpp_unit_7_services:/home/user/ros2_ws/install/bb8:/home/user/ros2_ws/install/Mini_Project_1:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy:/home/user/catkin_ws/devel:/home/simulations/public_sim_ws/devel:/opt/ros/noetic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs -- -j8 -l8
+[9.491s] Invoking command in '/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/topic_subscriber_pkg:/home/user/ros2_ws/install/topic_publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_components:/home/user/ros2_ws/install/move_robot:/home/user/ros2_ws/install/cpp_unit_7_services:/home/user/ros2_ws/install/bb8:/home/user/ros2_ws/install/Mini_Project_1:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy:/home/user/catkin_ws/devel:/home/simulations/public_sim_ws/devel:/opt/ros/noetic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs
+[9.505s] -- Install configuration: ""
+[9.505s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/unit_8_services_custom_msgs
+[9.505s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs
+[9.506s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv
+[9.506s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail
+[9.506s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__type_support.h
+[9.506s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.h
+[9.507s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__functions.c
+[9.507s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__struct.h
+[9.507s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/my_custom_service_message.h
+[9.507s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg
+[9.508s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.508s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/library_path.sh
+[9.508s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/library_path.dsv
+[9.508s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_generator_c.so
+[9.509s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_generator_c.so" to ""
+[9.509s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs
+[9.510s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv
+[9.510s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail
+[9.510s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_c.h
+[9.510s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg
+[9.510s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.511s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c.so
+[9.511s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.511s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs
+[9.512s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv
+[9.512s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail
+[9.512s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/dds_fastrtps
+[9.512s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_cpp.hpp
+[9.513s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg
+[9.513s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.513s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.514s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.514s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs
+[9.514s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv
+[9.514s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail
+[9.514s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__type_support.c
+[9.514s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_c.h
+[9.515s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg
+[9.515s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.515s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_introspection_c.so
+[9.515s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.515s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_c.so
+[9.516s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_c.so" to ""
+[9.516s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs
+[9.516s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv
+[9.516s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail
+[9.517s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__traits.hpp
+[9.517s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__builder.hpp
+[9.517s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__struct.hpp
+[9.517s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/my_custom_service_message.hpp
+[9.518s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs
+[9.518s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv
+[9.518s] -- Up-to-date: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail
+[9.518s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__type_support.cpp
+[9.518s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/include/unit_8_services_custom_msgs/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_cpp.hpp
+[9.518s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_introspection_cpp.so
+[9.519s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.519s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_cpp.so
+[9.520s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__rosidl_typesupport_cpp.so" to ""
+[9.520s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/pythonpath.sh
+[9.520s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/pythonpath.dsv
+[9.521s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/__init__.py
+[9.564s] Compiling '/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/__init__.py'...
+[9.569s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/srv
+[9.569s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/srv/_my_custom_service_message_s.c
+[9.569s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/srv/__init__.py
+[9.569s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/srv/_my_custom_service_message.py
+[9.570s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.571s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.571s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.572s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.573s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.574s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/python3.8/site-packages/unit_8_services_custom_msgs/unit_8_services_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.574s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__python.so
+[9.575s] -- Set runtime path of "/home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/lib/libunit_8_services_custom_msgs__python.so" to ""
+[9.575s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/srv/MyCustomServiceMessage.idl
+[9.575s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/srv/MyCustomServiceMessage.srv
+[9.576s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/srv/MyCustomServiceMessage_Request.msg
+[9.576s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/srv/MyCustomServiceMessage_Response.msg
+[9.576s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/ament_index/resource_index/package_run_dependencies/unit_8_services_custom_msgs
+[9.577s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/ament_index/resource_index/parent_prefix_path/unit_8_services_custom_msgs
+[9.577s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/ament_prefix_path.sh
+[9.577s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/ament_prefix_path.dsv
+[9.578s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/path.sh
+[9.578s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/environment/path.dsv
+[9.578s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/local_setup.bash
+[9.578s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/local_setup.sh
+[9.579s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/local_setup.zsh
+[9.579s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/local_setup.dsv
+[9.579s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/package.dsv
+[9.580s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/ament_index/resource_index/packages/unit_8_services_custom_msgs
+[9.580s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_generator_cExport.cmake
+[9.581s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.581s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.582s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.582s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_cExport.cmake
+[9.582s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.583s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_generator_cppExport.cmake
+[9.583s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.583s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.584s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_cppExport.cmake
+[9.584s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.584s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/rosidl_cmake-extras.cmake
+[9.585s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.585s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.585s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.586s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.586s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.586s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.586s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgsConfig.cmake
+[9.587s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/cmake/unit_8_services_custom_msgsConfig-version.cmake
+[9.587s] -- Installing: /home/user/ros2_ws/src/unit_8_services_custom_msgs/install/unit_8_services_custom_msgs/share/unit_8_services_custom_msgs/package.xml
+[9.592s] Invoked command in '/home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/topic_subscriber_pkg:/home/user/ros2_ws/install/topic_publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_components:/home/user/ros2_ws/install/move_robot:/home/user/ros2_ws/install/cpp_unit_7_services:/home/user/ros2_ws/install/bb8:/home/user/ros2_ws/install/Mini_Project_1:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy:/home/user/catkin_ws/devel:/home/simulations/public_sim_ws/devel:/opt/ros/noetic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/unit_8_services_custom_msgs/build/unit_8_services_custom_msgs

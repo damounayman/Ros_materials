@@ -1,0 +1,6 @@
+{
+  "package_name": "unit_8_services_custom_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/unit_8_services_custom_msgs:srv/MyCustomServiceMessage.srv"
+  ]
+}

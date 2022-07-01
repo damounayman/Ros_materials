@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from unit_8_services_custom_msgs/srv/MyCustomServiceMessage.srv
+// generated code does not contain a copyright notice
+
+
+module unit_8_services_custom_msgs {
+  module srv {
+    struct MyCustomServiceMessage_Request {
+      @verbatim (language="comment", text=
+        " The distance of each side of the square")
+      double radius;
+
+      @verbatim (language="comment", text=
+        " The number of times BB-8 has to execute the square movement when the service is called")
+      int32 repetitions;
+    };
+    struct MyCustomServiceMessage_Response {
+      @verbatim (language="comment", text=
+        " Did it achieve it?")
+      boolean success;
+    };
+  };
+};
